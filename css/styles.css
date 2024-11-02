@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 header {
@@ -34,6 +35,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .navigation-menu:hover,
@@ -129,8 +131,12 @@ header {
   background-color: #f4f4fd;
 }
 
-.section-foto > ul {
+.list-foto {
   list-style-type: none;
+}
+
+.list-fone {
+  background-color: #ffffff;
 }
 
 .title-section-foto {
@@ -139,6 +145,8 @@ header {
   line-height: 111%;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .title-foto {
@@ -155,7 +163,7 @@ header {
   background-color: #ffffff;
 }
 
-.section-foto > ul > li > p {
+.text-foto {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
